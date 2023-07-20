@@ -1,15 +1,15 @@
 import React from "react";
-import Image from "../../assets/4.png";
+// import Image from "../../assets/4.png";
 
 const AboutUs = () => {
   return (
-    <div id="about" className="flex flex-col md:flex-row w-full h-screen bg-amber-800">
+    <div id="about" className="flex flex-col md:flex-row w-full h-screen bg-amber-800 mb-[850px] md:mb-[0px] lg:mb-[0px]">
 
       <div className="w-full md:w-1/2 p-0 md:p-8 flex items-center justify-center ">
 
 
         <img
-          src={Image}
+          src="https://media.istockphoto.com/id/486570435/photo/crane-lifting-up-container-in-yard.webp?b=1&s=170667a&w=0&k=20&c=9qdjgmJ4oFgx9l9HjZFBflNEVXIFn1wPF-PusDM55M0="
           alt="About Us"
           className="w-full h-auto object-cover rounded-tr-full rounded-bl-ful"
         />

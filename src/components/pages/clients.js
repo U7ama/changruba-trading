@@ -11,12 +11,12 @@ const OurClients = () => {
       </div>
       <div className="flex justify-center gap-8">
         <img
-          className="w-24 h-24 object-cover"
+          className="w-24 h-24 object-cover hidden md:block lg:block"
           src="https://kktraderspakistan.com/wp-content/uploads/2023/06/EplaLabs.jpg"
           alt="Client 1"
         />
         <img
-          className="w-24 h-24 object-cover"
+          className="w-24 h-24 object-cover hidden md:block lg:block"
           src="https://kktraderspakistan.com/wp-content/uploads/2023/06/NaheedSuperMarket.jpg"
           alt="Client 2"
         />
