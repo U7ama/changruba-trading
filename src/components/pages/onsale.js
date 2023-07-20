@@ -1,7 +1,7 @@
 import React from "react";
-import PropertyImage1 from "../../assets/6.png";
-import PropertyImage2 from "../../assets/7.png";
-import PropertyImage3 from "../../assets/8.png";
+// import PropertyImage1 from "../../assets/6.png";
+// import PropertyImage2 from "../../assets/7.png";
+// import PropertyImage3 from "../../assets/8.png";
 
 const SaleProperties = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../../assets/main.png";
+// import Image from "../../assets/main.png";
 
 const HomePage = () => {
   const handleGetStarted = (event) => {

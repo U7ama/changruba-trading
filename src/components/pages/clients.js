@@ -1,7 +1,7 @@
 import React from "react";
-import Client1 from "../../assets/client1.png";
-import Client4 from "../../assets/client4.png";
-import Client5 from "../../assets/client5.png";
+// import Client1 from "../../assets/client1.png";
+// import Client4 from "../../assets/client4.png";
+// import Client5 from "../../assets/client5.png";
 
 const OurClients = () => {
   return (
