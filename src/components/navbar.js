@@ -33,9 +33,13 @@ const Navbar = () => {
   return (
     <div className={`fixed top-0 z-50 w-full h-[70px] flex justify-between items-center px-4 text-black ${isScrolled ? "bg-white" : "bg-transparent"}`} >
       <div className="text-4xl cursor-pointer inline-flex items-center text-amber-800">
+
         <Link to="home" smooth={true} duration={500}>
-          Chang Ruba Trading
+          Chang Ruba
         </Link>
+
+
+
       </div>
       <div className="md:hidden" onClick={handleMenuClick}>
         {showMenu ? (
@@ -127,35 +131,10 @@ const Navbar = () => {
           className="p-4 hover:bg-gray-700 cursor-pointer"
           onClick={handleMenuClick}
         >
-          Our Features
+          Featured Products
         </Link>
-        <Link
-          to="sale"
-          smooth={true}
-          duration={500}
-          className="p-4 hover:bg-gray-700 cursor-pointer"
-          onClick={handleMenuClick}
-        >
-          On Sale
-        </Link>
-        <Link
-          to="service"
-          smooth={true}
-          duration={500}
-          className="p-4 hover:bg-gray-700 cursor-pointer"
-          onClick={handleMenuClick}
-        >
-          Our Services
-        </Link>
-        <Link
-          to="demo"
-          smooth={true}
-          duration={500}
-          className="p-4 hover:bg-gray-700 cursor-pointer"
-          onClick={handleMenuClick}
-        >
-          Demo
-        </Link>
+
+
         <Link
           to="client"
           smooth={true}
