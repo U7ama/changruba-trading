@@ -36,7 +36,7 @@ const ContactUs = () => {
           },
         },
         Subject: {
-          Data: "Contact Form Submission",
+          Data: "Contact Form Submission from Trading Website",
         },
       },
       Source: `${name} <${email}>`,
